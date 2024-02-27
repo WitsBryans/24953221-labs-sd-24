@@ -1,0 +1,104 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+        topnav {
+            overflow: hidden;
+            float: inline-start;
+            background: #333;
+            width:100%;
+        }
+
+        topnav titlenav {
+            float: inline-start;
+            color: #f2f2f2;
+            padding: 14px 16px;
+            font-size: 17px;
+        }
+
+        topnav navb {
+            float: inline-end;
+            color: #f2f2f2;
+            padding: 14px 16px;
+            font-size: 17px;
+        }
+
+        topnav navb:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        aboutus {
+            margin: auto;
+            text-align: center;
+        }
+
+        servicecontainer {
+            display: flex;
+            justify-content: center;
+        }
+
+        servicecontainer service {
+            justify-content: space-around;
+            border: 1px solid #585858
+        }
+
+        footer {
+            overflow: hidden;
+            float: inline-start;
+            background: #333;
+            width:100%;
+            text-align: center;
+            padding: 14px 16px;
+            font-size: 17px;
+        }
+
+        footer con {
+            color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <topnav>
+        <titlenav>Welcome to Software Design Website</titlenav>
+        <navb>Contact Us</navb>
+        <navb>Services</navb>
+        <navb>About Us</navb>
+    </topnav>
+
+    <aboutus>
+      <h2>About Us</h2>
+      <p>We are a company dedicated to providing excellent services to our customers</p>
+      <p><img src="600x400.jpg"></p>
+    </aboutus>
+
+    <ourservices style="text-align: center">
+        <h2>Our Services</h2>
+        <servicecontainer>
+            <service>
+                <h2>Web Development</h2>
+                <p>We specialize in creating responsive and user-friendly websites</p>
+                <p><img src="TypicalWebDev.jpg"></p>
+            </service>
+            <service>
+                <h2>Graphic Design</h2>
+                <p>Our talented designers an bring your ideas to live with stunning visuals</p>
+                <p><img src="ProfessionalGraphicDesign.png"></p>
+            </service>
+        </servicecontainer>
+    </ourservices>
+
+    <br>
+    <br>
+    <br>
+
+    <footer>
+        <con>&copy 2024 The Lucky Company. All rights reserved.</con>
+    </footer>
+</body>
